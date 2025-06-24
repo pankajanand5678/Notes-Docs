@@ -36,6 +36,28 @@
     ii)  Once the public key is generated, copy and paste this public key on the location -  open Github -> 
          Settings -> SSH and GPG keys -> New SSH key -> paste the key and save.
     iii) Now run this command on your terminal ==> git remote add git@github:<user_name>/<remote_repository_name>
+    iv) Example - C:\Users\parimal>ssh-keygen -o
+        Generating public/private ed25519 key pair.
+        Enter file in which to save the key (C:\Users\parimal/.ssh/id_ed25519):
+        Enter passphrase (empty for no passphrase):
+        Enter same passphrase again:
+        Your identification has been saved in C:\Users\parimal/.ssh/id_ed25519
+        Your public key has been saved in C:\Users\parimal/.ssh/id_ed25519.pub
+        The key fingerprint is:
+        SHA256:Q7MMN1woincvA6Ea7TpFY8koICOcRFwQZDYcneluXtI parimal@LAPTOP-JD4TIHMI
+        The key's randomart image is:
+        +--[ED25519 256]--+
+        |B@B.o    ..      |
+        |B=.+. ....       |
+        |+=.+ o..*        |
+        |+ X.+ .= +       |
+        |.*.o.o .S        |
+        |. o+ Eo ..       |
+        | oo o  o         |
+        |o  .             |
+        | .               |
+        +----[SHA256]-----+
+
 20. Now, Once remote and local repositories are connected and can communicate, we can perform required operations
 21. To push any changes to remote ==> git push origin <branch_name>
 22. To pull the latest Code from remote ==> git pull origin <branch_name>

@@ -32,7 +32,7 @@
 18. After creating account on Github create a repository
 19. To Connect your local Git repository to remote one, it requires a ssh-key to be generated from your local 
     m/c and set it to the remote account --->
-    i)   To generate ssh-key ==>  ssh-keygen -o (It will create public key at the location you will specify)
+    i)   To generate ssh-key ==>  ssh-keygen -o (It will create public key at the location you will specify, you can leave the location blank as well it will generate the key at the default loaction showing.)
     ii)  Once the public key is generated, copy and paste this public key on the location -  open Github -> 
          Settings -> SSH and GPG keys -> New SSH key -> paste the key and save.
     iii) Now run this command on your terminal ==> git remote add git@github:<user_name>/<remote_repository_name>
